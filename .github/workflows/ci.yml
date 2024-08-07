@@ -8,10 +8,10 @@ jobs:
     steps:
     - name: checkout repository
        uses: actions/checkout@v2 
-    - name: Set up Python 11
+    - name: Set up Python 3.11
        uses: actions/setup-python@v4
        with:
-         python-version: '11'
+         python-version: '3.11'
 
       - name: Install dependencies
        run: |
